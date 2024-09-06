@@ -6,6 +6,10 @@
     <title>teste de imagen</title>
 
     <style>
+
+        body{
+            background-image:url('imagen/wallpaper001.jpg') ;
+        }
         div.quadrado{
             display: inline-block;
             border-radius: 10px;
@@ -15,19 +19,34 @@
             height: 300px;
 
         }
+
+        div#q1{
+            background-color: skyblue;
+
+        }
+
+        div#q2{
+            background-image:linear-gradient(to bottom, rgb(234, 255, 1), #eb0202);
+
+        }
+
+        div#q3{
+            background-image: url('imagen/pattern003.png');
+        }
+
     </style>
 </head>
 <body>
 
-    <div class="quadrado">
+    <div class="quadrado" id="q1">
 
     </div>
 
-    <div class="quadrado">
+    <div class="quadrado" id="q2">
 
     </div>
 
-    <div class="quadrado">
+    <div class="quadrado" id="q3">
 
     </div>
 
