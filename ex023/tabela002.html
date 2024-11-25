@@ -8,13 +8,19 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+
+         tbody > tr:nth-child(odd) {
+            background-color: white;
+
+        }
+        tbody > tr:nth-child(even) {
+            background-color: gray;
+
+        }
+
         table{
             width: 400px;
             border-collapse: collapse;
-        }
-        
-        table > tr {
-            background-color: rgb(162, 5, 5);
         }
 
         td , th{
@@ -22,7 +28,7 @@
             padding: 10px;
         }
         thead, tfoot{
-            background-color: gray;
+            background-color: rgb(76, 76, 76);
             color: white;
         }
         td.num{
