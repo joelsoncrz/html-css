@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+         border-collapse: collapse;
+         margin: auto;
+           
+        }
+        td{
+            border: 1px black solid;
+            width: 60px;
+            height: 30px;
+            text-align: center;
+        }
+        .a1{
+            background-color: brown;
+
+        }
+        .b1{
+            background-color: blue;
+        }
+        .c1{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de celulas</h1>
+    <table>
+        <tr>
+            <td class="a1">a</td>
+            <td class="b1">b</td>
+            <td class="c1" rowspan="4">c</td>
+        </tr>
+        <tr>
+            
+            <td class="b1">b</td>
+            <td class="c1">c</td>
+        </tr>
+        <tr>
+            <td class="a1">a</td>
+           
+            <td class="c1">c</td>
+        </tr>
+        <tr>
+        
+          
+            <td class="c1" colspan="2">c</td>
+        </tr>  <tr>
+            <td class="a1">a</td>
+            <td class="b1">b</td>
+            <td class="c1">c</td>
+           
+        </tr>
+        <tr>
+            <td class="a1" colspan="2">a</td>
+            
+            <td class="c1">c</td>
+           
+        </tr>
+    </table>
+</body>
+</html>
