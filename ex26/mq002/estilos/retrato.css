@@ -1,3 +1,10 @@
 @charset "UTF-8";
 
 /* Aparelho em pé (protrait) */
+
+
+
+body {
+    background-image:url(../imagem/cfmoto.jpg);
+    background-position: center bottom;
+}

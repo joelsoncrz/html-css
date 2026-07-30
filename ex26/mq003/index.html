@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+<style>
+
+/* configurações gerais */
+@media all{
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px rgb(3, 3, 75);
+    padding: 10px;
+}
+}
+/* Aparelho em pé (protrait) */
+@media screen and (orientation: portrait) {
+    
+body {
+    background-image:url(../imagem/cfmoto.jpg);
+    background-position: center bottom;
+}
+}
+
+/* Aparelho deitado (landscape) */
+@media screen and (orientation: landscape) {
+
+body {
+  background-image: url(../imagem/gocu.png);
+  background-position: left bottom;
+}
+}
+   
+   </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo</h1>
+</body>
+</html>

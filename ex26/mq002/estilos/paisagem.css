@@ -2,3 +2,9 @@
 
 
 /* Aparelho deitado (landscape) */
+
+
+body {
+  background-image: url(../imagem/gocu.png);
+  background-position: left bottom;
+}
