@@ -19,9 +19,25 @@ header > h1{
     padding: 10px;
     text-align: center;
 }
+    /*menu Habueque*/
+.material-symbols-outlined {
+   background-color: rgb(74, 70, 70);
+   display: block;
+   text-align: center;
+   padding: 10px;
+   cursor: pointer;
+
+}
+
+.material-symbols-outlined {
+    background-color: white;
+    color: black;
+
+}
+
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul {
