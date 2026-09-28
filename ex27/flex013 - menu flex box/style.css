@@ -20,6 +20,22 @@ header{
     color: white;
     padding: 10px;
 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header > h1 {
+    flex: 0 0 140px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
+}
+
+header > nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
 main{
@@ -34,4 +50,13 @@ a{
     margin: 3px;
     padding: 7px;
     border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s;
 }
